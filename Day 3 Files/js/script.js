@@ -114,6 +114,26 @@ a -=; same as a = a-4
 /= divide by
  */
 
+//string - text
+//" is used for begining and end of string
+//needs to distinguish between variables and names
+
+var kermit = "light green";
+var frogName = "kermit";
+
+//Double quote or single
+//Escape character \ in front of escape character
+
+//can also do a new line inside of text
+
+
+var phrase = 'I don\'t know.\nDo you?';
+
+console.log(phrase);
+
+
+
+
 
 
 
