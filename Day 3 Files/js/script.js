@@ -132,6 +132,20 @@ var phrase = 'I don\'t know.\nDo you?';
 console.log(phrase);
 
 
+//Boolean - useful for conditional
+//either true or false
+//light switches
+var question = true;
+
+// not the same as
+
+var unTrue = false;
+
+var nope = "true";
+
+
+
+
 
 
 
