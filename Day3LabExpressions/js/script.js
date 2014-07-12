@@ -32,19 +32,23 @@ console.log("Sparky got "+numberSlicesSparkyGets+" slices of pizza");
 
 //Average shopping bill
 
+//variables
 var week1Groceries = 100;
 var week2Groceries = 50;
 var week3Groceries = 100;
 var week4Groceries = 100;
 var week5Groceries = 100;
 
-//Total bill = week1 + week2 + week3 + week4 + week5
+//Total spent on groceries = week1 + week2 + week3 + week4 + week5
+//Average = total / 5
 
 var totalSpentOnGroceries = (week1Groceries + week2Groceries + week3Groceries + week4Groceries + week5Groceries);
 var averageWeeklyGrocerySpending = (totalSpentOnGroceries / 5);
 
+//test
 console.log(totalSpentOnGroceries);
 console.log(averageWeeklyGrocerySpending);
+//final
 console.log("You have spent a total of $"+totalSpentOnGroceries+" on groceries over 5 weeks. That is an average of $"+averageWeeklyGrocerySpending+" per week.");
 
 
@@ -60,9 +64,11 @@ var tax = (salesTaxPercentage / 100 * (originalPrice - discount));
 var priceBeforeTax = (originalPrice - discount);
 var priceAfterTax = (priceBeforeTax + tax);
 
+//Test
 console.log(discount);
 console.log(tax);
 console.log(priceBeforeTax);
 console.log(priceAfterTax);
 
+//final
 console.log("your "+description+" was originally $"+originalPrice+", but after a "+discountPercentage+"% discount, it is now $"+priceBeforeTax+" without tax, and $"+priceAfterTax+" with tax")
