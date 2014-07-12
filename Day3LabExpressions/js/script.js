@@ -8,8 +8,8 @@
 //calculate how much pizza each pertygoer will get
 
 var numberSlicesPerPizza = 8;
-var numberPeopleParty = 8;
-var numberPizzasOrdered = 10;
+var numberPeopleParty = 10;
+var numberPizzasOrdered = 4;
 
 //Slices * pizzas / people
 
@@ -20,4 +20,8 @@ var slicesPerPerson = numberSlicesPerPizza * numberPizzasOrdered / numberPeopleP
 console.log("Each person ate "+slicesPerPerson+" slices of pizza at the party");
 
 
+//Slices * pizzas % people
 
+var numberSlicesSparkyGets = numberSlicesPerPizza * numberPizzasOrdered % numberPeopleParty;
+
+console.log("Sparky got "+numberSlicesSparkyGets+" slices of pizza");
