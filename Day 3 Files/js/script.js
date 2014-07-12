@@ -50,6 +50,70 @@ b = a+3;
 
 console.log (b);
 
+//Simple math
+//Find your age
+
+//Create/Declare variable for year born
+
+var yearBorn = 1974;
+
+//age current year subtract year you were born
+//create age variable
+
+var age = 2014-yearBorn;
+
+console.log(age);
+
+//Talk about math
+// +,-,*,/
+
+//fina area of triangle
+//base * height / 2
+//create 2 variables one for base one for height
+
+var base = 4;
+var height = 5;
+var areaOfTriangle = base * height / 2;
+
+console.log(areaOfTriangle);
+
+//modulo - %
+//Give you remainder
+
+//var remainder = 32/10
+var remainder = 32%10;
+
+console.log(remainder);
+
+//find if odd or even
+
+var evenOrOdd = 67%2;
+
+console.log(evenOrOdd);
+
+//Assignment operators
+
+/*
+= Assignment - "is"
+
+add one to variable
+a = a+1
+a++;
+
+-- subtract one
+a-- is same as a-1
+
++= adds the number after the equals to the variable
+a =+6; is the same as a = a+6
+
+-= subtracts number
+a -=; same as a = a-4
+
+*= multiply by
+
+/= divide by
+ */
+
 
 
 
