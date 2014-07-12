@@ -59,8 +59,12 @@ var originalPrice = 10;
 var discountPercentage = 10;
 var description ="sweater";
 var salesTaxPercentage = 5;
+
+//figure dollar amount of discount and tax
 var discount = (discountPercentage/ 100 * originalPrice);
 var tax = (salesTaxPercentage / 100 * (originalPrice - discount));
+
+//before and after tax 
 var priceBeforeTax = (originalPrice - discount);
 var priceAfterTax = (priceBeforeTax + tax);
 
