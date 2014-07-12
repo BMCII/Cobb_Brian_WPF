@@ -143,6 +143,50 @@ var unTrue = false;
 
 var nope = "true";
 
+//order of operations
+//PEMDAS - Parenthesis, Exponents, Multiply, Divide, Add, Subtract
+
+//Find Quiz Averages
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 70;
+
+var average = (quiz1 + quiz2 + quiz3) /3;
+console.log(average);
+
+//find perimiter
+// 2 * length = 2 * height
+
+
+//create variable for length and height
+
+var lengthRect = 7;
+var heightRect = 6;
+ //create variable for perimeter
+
+var perimeterRect = 2*lengthRect + 2* heightRect ;
+
+console.log("the perimeter of a rectangle with a length of "+lengthRect+" and a height of "+heightRect+" is "+perimeterRect + ".");
+
+//Concatenation - combining text strings!
+
+var firstName = "Kermit";
+var lastName = "the Frog";
+
+//concatinate first and last name into whole name
+
+var wholeName = firstName + " " + lastName;
+ console.log(wholeName);
+
+var d = "6";
+var e = 7;
+var combine = d+e;
+console.log(combine);
+
+
+
+
+
 
 
 
