@@ -50,6 +50,7 @@ console.log("You have spent a total of $"+totalSpentOnGroceries+" on groceries o
 
 //Discounts
 
+//Variables
 var originalPrice = 10;
 var discountPercentage = 10;
 var description ="sweater";
@@ -63,3 +64,5 @@ console.log(discount);
 console.log(tax);
 console.log(priceBeforeTax);
 console.log(priceAfterTax);
+
+console.log("your "+description+" was originally $"+originalPrice+", but after a "+discountPercentage+"% discount, it is now $"+priceBeforeTax+" without tax, and $"+priceAfterTax+" with tax")
