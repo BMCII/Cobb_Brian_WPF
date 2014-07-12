@@ -37,9 +37,29 @@ var week2Groceries = 50;
 var week3Groceries = 100;
 var week4Groceries = 100;
 var week5Groceries = 100;
-var totalSpentOnGroceries = (week1Groceries + week2Groceries + week3Groceries + week4Groceries + week5Groceries)
-var averageWeeklyGrocerySpending = (totalSpentOnGroceries / 5)
+
+//Total bill = week1 + week2 + week3 + week4 + week5
+
+var totalSpentOnGroceries = (week1Groceries + week2Groceries + week3Groceries + week4Groceries + week5Groceries);
+var averageWeeklyGrocerySpending = (totalSpentOnGroceries / 5);
 
 console.log(totalSpentOnGroceries);
 console.log(averageWeeklyGrocerySpending);
-console.log("You have spent a total of $"+totalSpentOnGroceries+" on groceries over 5 weeks. That is an average of $"+averageWeeklyGrocerySpending+" per week.")
+console.log("You have spent a total of $"+totalSpentOnGroceries+" on groceries over 5 weeks. That is an average of $"+averageWeeklyGrocerySpending+" per week.");
+
+
+//Discounts
+
+var originalPrice = 10;
+var discountPercentage = 10;
+var description ="sweater";
+var salesTaxPercentage = 5;
+var tax = (salesTaxPercentage / 100 * originalPrice);
+var discount = (discountPercentage/ 100 * originalPrice);
+var priceBeforeTax = (originalPrice - discount);
+var priceAfterTax = (priceBeforeTax + tax);
+
+console.log(discount);
+console.log(tax);
+console.log(priceBeforeTax);
+console.log(priceAfterTax);
