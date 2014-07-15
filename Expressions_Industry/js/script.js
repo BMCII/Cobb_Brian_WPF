@@ -7,27 +7,11 @@
 
 //alert("testing 1,2,3");
 
-//how to calculate time to save money
-//income - expenses - desired percent to save
+//how much to charge for a basic website
 
-alert("savings calculator");
-var savingsGoal = prompt("How much would you like to save?");
-var income = prompt("what is your income per pay period?");
-var expenses = prompt("what are your total expenses per pay period?");
-var percentSavings = prompt("what percent of your disposable income would you like to save");
+var baseCost = (250);
+var numberOfPages = prompt("How many pages would you like?");
+var addOns = prompt("how many add-ons would you like\n shopping cart, SEO, maintenance, Logo");
 
-//need parseInt to change text string to number
 
-var savingsGoalNumber = parseInt(savingsGoal);
-var incomeNumber = parseInt(income);
-var expensesNumber = parseInt(expenses);
-var percentSavingsNumber = parseInt(percentSavings);
 
-//made an array to clean up code
-
-var variables = [savingsGoalNumber, incomeNumber, expensesNumber, percentSavingsNumber];
-
-//savingsGoal / (( income - expenses ) * ( percentSavings / 100 ))
-
-var time = variables[0] / ((variables[1] - variables[2]) * (variables[3] / 100));
-var answer = alert("It will take " + time + " pay periods to meet your goal");
