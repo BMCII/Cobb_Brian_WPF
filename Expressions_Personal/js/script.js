@@ -5,7 +5,7 @@
  Expressions Personal
  */
 
-alert("testing 1,2,3");
+//alert("testing 1,2,3");
 
 //how to calculate time to save money
 //income - expenses - desired percent to save
