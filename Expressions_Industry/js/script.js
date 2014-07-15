@@ -16,6 +16,9 @@ var type = prompt("ecomerce, basic or CMS?");
 
 //how to give a value to var type?
 
+var totalCost = (baseCost + (numberOfPages *  50) + (addOns * 50));
+console.log(totalCost);
 
+//working so far
 
 
