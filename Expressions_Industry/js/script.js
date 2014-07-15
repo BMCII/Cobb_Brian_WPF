@@ -7,16 +7,16 @@
 
 //alert("testing 1,2,3");
 
-//how much to charge for a basic website
+//how much to charge for a website
+
+alert("enter only numbers\nunless asked otherwise");
 
 var baseCost = (250);
 var numberOfPages = prompt("How many pages would you like?");
-var addOns = prompt("how many add-ons would you like\n shopping cart,\n SEO, \n maintenance, \n Logo");
-var type = prompt("ecomerce, basic or CMS?");
+var addOns = prompt("how many add-ons would you like\n 1) shopping cart,\n 2) SEO, \n 3) maintenance, \n 4) Logo");
+var type = prompt("would you like an ecomerce, a basic or a CMS website? \n\ntype answer");
 
-//how to give a value to var type?
-
-
+//parseInt answers to make them numbers
 
 var baseCostNumber = parseInt(baseCost);
 var numberOfPagesNumber = parseInt(numberOfPages);
@@ -29,8 +29,8 @@ console.log(baseCostNumber);
 console.log(numberOfPagesNumber);
 console.log(addOnsNumber);
 
-//working so far
+//checked numbers now complete alert
 
-var answer = alert("you would like a(an) " + type + " website for $" + totalCost);
+var answer = alert("Your " + type + " website will cost approximately $" + totalCost + "\n\ncall for details.\n");
 
 
