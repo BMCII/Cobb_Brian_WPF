@@ -28,3 +28,7 @@ var combinations = flavorsNumber * scoopsNumber * (toppingsNumber);
 
 console.log(combinations);
 
+//now for the answer
+
+var answer = alert("There are " + combinations + " combinations of ice cream available");
+
