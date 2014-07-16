@@ -25,7 +25,7 @@ console.log("what comes after");
 
 //if kid is over 48 inches he can ride
 
-var kidHeight = 50;
+var kidHeight = 47;
 var minHeight = 48;
 
 if(kidHeight<minHeight){
@@ -33,3 +33,13 @@ if(kidHeight<minHeight){
 
 }
 
+//what if we had sneaker lifts
+
+var sneakerLift = 2;
+//test if kid tall enough with lifts
+
+if(kidHeight + sneakerLift>minHeight){
+
+    console.log("you are tll enough to ride the coaster if you cheat")
+
+}
