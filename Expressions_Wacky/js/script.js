@@ -11,11 +11,13 @@
 //number of combinations of ice cream
 //
 
-var flavors = ("how many flavors are there?");
-var scoops = ("how many scoops would you like");
-var toppings = ("how many toppings are there?");
+var flavors = prompt("how many flavors are there?");
+var scoops = prompt("how many scoops would you like");
+var toppings = prompt("how many toppings are there?");
 
 //formula is flavors x (scoops x toppings + 1)
 
-var combinations = alert
+var combinations = flavors * scoops * toppings;
+
+console.log(combinations);
 
