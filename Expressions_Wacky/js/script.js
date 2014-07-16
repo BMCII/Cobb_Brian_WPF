@@ -5,14 +5,20 @@
 Expressions Wacky
  */
 
-//possible snack combinations
+//snack decider
 
-var ingredient1 = prompt("what is your favorite snack food? chips or cookies");
-var ingredient2 = prompt("what is your second favorite snack food? cookies or cake");
-var ingredient3 = prompt("what is your third favorite snack food?" + ingredient1 + " or" + ingredient2);
-var ingredient4 = prompt("Why not give me one more snack food.");
+var ingredient1 = prompt("Pick one\n\nchips or cookies");
+var ingredient2 = prompt("Now pick one of these\n\ncrackers or cake");
+var ingredient3 = prompt("Choose one\n\n" + ingredient1 + " or " + ingredient2);
+var ingredient4 = prompt("Pick one\n\nIce cream or cheese spread");
+var ingredient5 = prompt("now choose\n\nKetchup or cream cheese");
+var ingredient6 = prompt("Another choice\n\n" + ingredient4 + "or " + ingredient5);
+var ingredient7 = prompt("Getting there\n\npeanuts or candy");
+var ingredient8 = prompt("which is better\n\nsprinkles or chocolate");
+var ingredient9 = prompt("Last one\n\n" + ingredient7 + " or" + ingredient8);
 
 console.log(ingredient3);
+
 
 //now make array
 
