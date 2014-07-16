@@ -15,9 +15,16 @@ var flavors = prompt("how many flavors are there?");
 var scoops = prompt("how many scoops would you like");
 var toppings = prompt("how many toppings are there?");
 
-//formula is flavors x (scoops x toppings + 1)
+var flavorsNumber = parseInt(flavors);
+var scoopsNumber = parseInt(scoops);
+var toppingsNumber = parseInt(toppings);
 
-var combinations = flavors * scoops * toppings;
+//formula is flavors x (scoops x toppings + 1)
+toppingsNumber = toppingsNumber+1;
+
+console.log(toppings);
+
+var combinations = flavorsNumber * scoopsNumber * (toppingsNumber);
 
 console.log(combinations);
 
