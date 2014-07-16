@@ -5,13 +5,17 @@
  Expressions wacky
  */
 
-alert("testing 1,2,3");
+//alert("testing 1,2,3");
 
 
-//number of variations of ice cream
+//number of combinations of ice cream
 //
 
 var flavors = ("how many flavors are there?");
 var scoops = ("how many scoops would you like");
-var toppings = ("how many toppings would you like?");
+var toppings = ("how many toppings are there?");
+
+//formula is flavors x (scoops x toppings + 1)
+
+var combinations = alert
 
