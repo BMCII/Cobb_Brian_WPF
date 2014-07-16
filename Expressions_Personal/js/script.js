@@ -18,10 +18,10 @@ var percentSavings = prompt("what percent of your disposable income would you li
 
 //need parseInt to change text string to number
 
-var savingsGoalNumber = Number(savingsGoal);
-var incomeNumber = Number(income);
-var expensesNumber = Number(expenses);
-var percentSavingsNumber = Number(percentSavings);
+var savingsGoalNumber = parseInt(savingsGoal);
+var incomeNumber = parseInt(income);
+var expensesNumber = parseInt(expenses);
+var percentSavingsNumber = parseInt(percentSavings);
 
 //made an array to clean up code
 

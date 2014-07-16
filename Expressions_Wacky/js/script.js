@@ -21,6 +21,10 @@ console.log(ingredient3);
 console.log(ingredient6);
 console.log(ingredient9);
 
+//now create answer alert
+
+var answer = alert("Your snack is \n\n" + ingredient3 + " and " + ingredient6 +" with " + ingredient9 + " on top");
+
 
 
 //now make array
