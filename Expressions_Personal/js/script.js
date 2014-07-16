@@ -18,16 +18,18 @@ var percentSavings = prompt("what percent of your disposable income would you li
 
 //need parseInt to change text string to number
 
-var savingsGoalNumber = parseInt(savingsGoal);
-var incomeNumber = parseInt(income);
-var expensesNumber = parseInt(expenses);
-var percentSavingsNumber = parseInt(percentSavings);
+var savingsGoalNumber = Number(savingsGoal);
+var incomeNumber = Number(income);
+var expensesNumber = Number(expenses);
+var percentSavingsNumber = Number(percentSavings);
 
 //made an array to clean up code
 
 var variables = [savingsGoalNumber, incomeNumber, expensesNumber, percentSavingsNumber];
 
+//looked up a math thing so there is no decimal and it rounds up = math.ceil(time)
+
 //savingsGoal / (( income - expenses ) * ( percentSavings / 100 ))
 
 var time = variables[0] / ((variables[1] - variables[2]) * (variables[3] / 100));
-var answer = alert("It will take " + time + " pay periods to meet your goal")
+var answer = alert("It will take " + Math.ceil(time) + " pay periods to meet your goal");
