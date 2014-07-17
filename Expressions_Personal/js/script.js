@@ -23,7 +23,7 @@ var incomeNumber = parseInt(income);
 var expensesNumber = parseInt(expenses);
 var percentSavingsNumber = parseInt(percentSavings);
 
-//made an array to clean up code
+//made an array
 
 var variables = [savingsGoalNumber, incomeNumber, expensesNumber, percentSavingsNumber];
 
