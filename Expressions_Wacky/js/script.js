@@ -9,7 +9,8 @@
 
 
 //number of combinations of ice cream
-//
+
+//enter variables
 
 var flavors = prompt("how many flavors are there?");
 var scoops = prompt("how many scoops would you like");
