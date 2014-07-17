@@ -25,7 +25,7 @@ toppingsNumber = toppingsNumber+1;
 
 console.log(toppings);
 
-var combinations = flavorsNumber * scoopsNumber * (toppingsNumber);
+var combinations = flavorsNumber * scoopsNumber * toppingsNumber;
 
 console.log(combinations);
 
