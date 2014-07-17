@@ -17,7 +17,10 @@ if(usernameEntered === correctUsername && passwordEntered === correctPassword){
 alert("Welcome " + correctUsername)
 
 } else if(usernameEntered != correctUsername){
-    alert("User not found, try again")
+    alert("User not found, try again");
+
+//all but one possibility is covered else statement will work
+    
 
 } else {
     alert("Password does not match our records")
