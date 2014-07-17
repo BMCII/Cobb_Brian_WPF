@@ -16,12 +16,15 @@ var numberOfPages = prompt("How many pages would you like?");
 var addOns = prompt("how many add-ons would you like\n 1) shopping cart,\n 2) SEO, \n 3) maintenance, \n 4) Logo");
 var type = prompt("would you like an ecomerce, a basic or a CMS website? \n\ntype answer");
 
+console.log(baseCost);
+
 //parseInt answers to make them numbers
 
 var baseCostNumber = parseInt(baseCost);
 var numberOfPagesNumber = parseInt(numberOfPages);
 var addOnsNumber = parseInt(addOns);
 
+// totalCost is baseCost + numberOfPages * 50 a page + 50 an add on
 var totalCost = (baseCostNumber + (numberOfPagesNumber *  50) + (addOnsNumber * 50));
 console.log(totalCost);
 
