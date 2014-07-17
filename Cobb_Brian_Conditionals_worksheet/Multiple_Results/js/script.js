@@ -14,9 +14,9 @@ var correctUsername = ("ElMazorca");
 var correctPassword = ("theCobb");
 
 if(usernameEntered === correctUsername && passwordEntered === correctPassword){
-    
+alert("Welcome " + correctUsername)
 
-}
+} else i
 
 
 
