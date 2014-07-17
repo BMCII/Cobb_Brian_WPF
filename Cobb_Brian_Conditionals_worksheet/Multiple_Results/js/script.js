@@ -8,6 +8,7 @@
 //alert("testing 1,2,3");
 
 var usernameEntered = prompt("Enter Username");
+var passwordEntered = prompt("Enter Password");
 
 
 
