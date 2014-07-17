@@ -10,6 +10,9 @@
 var usernameEntered = prompt("Enter Username");
 var passwordEntered = prompt("Enter Password");
 
+var correctUsername = ("ElMazorca");
+
+
 
 
 
