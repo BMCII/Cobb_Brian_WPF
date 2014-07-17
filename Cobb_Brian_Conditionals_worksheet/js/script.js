@@ -23,6 +23,11 @@ var tankCapacityNumber = Number(tankCapacity);
 //   (gaugeReading/100) * tankCapacity * fuelEconomy
 
 var distance = (gaugeReadingNumber / 100) * tankCapacityNumber * fuelEconomyNumbers;
+
+//need gallons in tank
+
+// (gaugeReadingNumber / 100) * tankCapacityNumber
+
 var gasInTank = (gaugeReadingNumber / 100) * tankCapacityNumber;
 console.log(distance);
 console.log(gasInTank);
