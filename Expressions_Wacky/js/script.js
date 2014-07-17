@@ -30,5 +30,6 @@ console.log(combinations);
 
 //now for the answer
 
-var answer = alert("There are " + combinations + " combinations of ice cream available");
+var answer = ("There are " + combinations + " combinations of ice cream available");
+alert(answer);
 
