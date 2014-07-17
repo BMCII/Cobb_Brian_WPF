@@ -18,3 +18,6 @@ var tankCapacity = prompt("what is your gas tank capacity");
 var fuelEconomyNumbers = Number(fuelEconomy);
 var gaugeReadingNumber = Number(gaugeReading);
 var tankCapacityNumber = Number(tankCapacity);
+
+//find miles able to drive on gas in tank
+//   (gaugeReading/100) * tankCapacity * fuelEconomy
