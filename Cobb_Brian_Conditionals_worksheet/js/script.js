@@ -23,6 +23,8 @@ var tankCapacityNumber = Number(tankCapacity);
 //   (gaugeReading/100) * tankCapacity * fuelEconomy
 
 var distance = (gaugeReadingNumber / 100) * tankCapacityNumber * fuelEconomyNumbers;
-
+var
 console.log(distance);
+var answer;
+answer = (distance>200)?"Yes, you can make it without stopping for gas":"You only have " +  " gallons of gas in your tank, better get gas now while you can!"
 
