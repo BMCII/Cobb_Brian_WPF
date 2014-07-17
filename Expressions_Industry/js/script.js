@@ -41,6 +41,7 @@ console.log(addOnsNumber);
 
 var answer = ("Your " + type + " website will cost approximately $" + totalCost + "\n\ncall for details.\n");
 alert(answer);
+console.log(answer);
 
 
 
