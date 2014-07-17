@@ -11,7 +11,7 @@
 
 var fuelEconomy = prompt("How many miles per gallon of fuel does your car get?");
 var gaugeReading = prompt("what percent of fuel is left in gas tank?");
-var tankCapacity = prompt("what is your gas tank capacity");
+var tankCapacity = prompt("what is your gas tank capacity in gallons");
 
 //set text string "numbers" to numbers
 
@@ -21,3 +21,8 @@ var tankCapacityNumber = Number(tankCapacity);
 
 //find miles able to drive on gas in tank
 //   (gaugeReading/100) * tankCapacity * fuelEconomy
+
+var distance = (gaugeReadingNumber / 100) * tankCapacityNumber * fuelEconomyNumbers;
+
+console.log(distance);
+
