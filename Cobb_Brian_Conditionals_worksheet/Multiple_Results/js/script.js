@@ -13,6 +13,12 @@ var passwordEntered = prompt("Enter Password");
 var correctUsername = ("ElMazorca");
 var correctPassword = ("theCobb");
 
+if(usernameEntered === correctUsername && passwordEntered === correctPassword){
+    
+
+}
+
+
 
 
 
