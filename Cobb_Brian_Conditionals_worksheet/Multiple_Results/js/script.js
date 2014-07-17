@@ -16,7 +16,12 @@ var correctPassword = ("theCobb");
 if(usernameEntered === correctUsername && passwordEntered === correctPassword){
 alert("Welcome " + correctUsername)
 
-} else i
+} else if(usernameEntered != correctUsername){
+    alert("User not found, try again")
+
+} else {
+    alert("Password does not match our records")
+}
 
 
 
