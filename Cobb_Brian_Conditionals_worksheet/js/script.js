@@ -12,3 +12,9 @@
 var fuelEconomy = prompt("How many miles per gallon of fuel does your car get?");
 var gaugeReading = prompt("what percent of fuel is left in gas tank?");
 var tankCapacity = prompt("what is your gas tank capacity");
+
+//set text string "numbers" to numbers
+
+var fuelEconomyNumbers = Number(fuelEconomy);
+var gaugeReadingNumber = Number(gaugeReading);
+var tankCapacityNumber = Number(tankCapacity);
