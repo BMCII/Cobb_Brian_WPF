@@ -39,6 +39,8 @@ console.log(addOnsNumber);
 
 //checked numbers now complete alert
 
-var answer = alert("Your " + type + " website will cost approximately $" + totalCost + "\n\ncall for details.\n");
+var answer = ("Your " + type + " website will cost approximately $" + totalCost + "\n\ncall for details.\n");
+alert(answer);
+
 
 
