@@ -31,6 +31,7 @@ console.log(baseCostNumber);
 var totalCost = (baseCostNumber + (numberOfPagesNumber *  50) + (addOnsNumber * 50));
 console.log(totalCost);
 
+//test numbers
 
 console.log(baseCostNumber);
 console.log(numberOfPagesNumber);
