@@ -24,9 +24,13 @@ var baseCostNumber = parseInt(baseCost);
 var numberOfPagesNumber = parseInt(numberOfPages);
 var addOnsNumber = parseInt(addOns);
 
+console.log(baseCostNumber);
+
 // totalCost is baseCost + numberOfPages * 50 a page + 50 an add on
+
 var totalCost = (baseCostNumber + (numberOfPagesNumber *  50) + (addOnsNumber * 50));
 console.log(totalCost);
+
 
 console.log(baseCostNumber);
 console.log(numberOfPagesNumber);
