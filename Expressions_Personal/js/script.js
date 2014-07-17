@@ -25,9 +25,12 @@ var percentSavingsNumber = parseInt(percentSavings);
 
 console.log(savingsGoal);
 
+
 //made an array
 
 var variables = [savingsGoalNumber, incomeNumber, expensesNumber, percentSavingsNumber];
+
+console.log(variables);
 
 //looked up a math thing so there is no decimal and it rounds up = math.ceil(time)
 
