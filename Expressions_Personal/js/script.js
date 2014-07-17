@@ -38,3 +38,4 @@ console.log(variables);
 
 var time = variables[0] / ((variables[1] - variables[2]) * (variables[3] / 100));
 var answer = alert("It will take " + Math.ceil(time) + " pay periods to meet your goal");
+
