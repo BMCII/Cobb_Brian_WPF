@@ -20,7 +20,7 @@ alert("Welcome " + correctUsername)
     alert("User not found, try again");
 
 //all but one possibility is covered else statement will work
-    
+
 
 } else {
     alert("Password does not match our records")
