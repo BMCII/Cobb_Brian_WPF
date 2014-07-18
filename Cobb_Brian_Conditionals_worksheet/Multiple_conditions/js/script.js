@@ -11,3 +11,4 @@
 //variables are time and age
 
 var age = prompt("are you a senior citizen? (55 and up)");
+var time = prompt("what time is your movie");
