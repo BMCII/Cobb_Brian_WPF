@@ -16,8 +16,9 @@ var time = prompt("what time is your movie");
 //now to make if statement
 
 if (age >= 55){
-    alert("the ticket price is 7")
+    alert("the ticket price is $7")
 
-} else if (){
+} else if (time >= 3 && time <=5){
+    alert("the ticket price is $7")
 
 }
