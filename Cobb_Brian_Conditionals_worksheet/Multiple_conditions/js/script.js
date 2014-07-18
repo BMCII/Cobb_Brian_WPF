@@ -7,4 +7,5 @@
 
 //alert("testing 1,2,3");
 
-
+//"the ticket price is x'
+//variables are time and age
