@@ -12,3 +12,12 @@
 
 var age = prompt("are you a senior citizen? (55 and up)");
 var time = prompt("what time is your movie");
+
+//now to make if statement
+
+if (age >= 55){
+    alert("the ticket price is 7")
+
+} else if (){
+
+}
