@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fae8d52-7ca4-4f95-891b-f0b7cea2c6d1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Industry/js/script.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Personal/js/script.js" afterPath="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Personal/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Wacky/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Industry/Conditionals_Industry.html" afterPath="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Industry/Conditionals_Industry.html" />
     </list>
     <ignored path="Cobb_Brian_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Industry/Conditionals_Industry.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0996016" vertical-offset="0" max-vertical-offset="753">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -102,10 +100,10 @@
         <option value="$PROJECT_DIR$/Day_6_Files/js/math.js" />
         <option value="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Personal/Conditionals_personal.html" />
         <option value="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Wacky/Conditionals_Wacky.html" />
-        <option value="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Industry/Conditionals_Industry.html" />
         <option value="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Industry/js/script.js" />
         <option value="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Personal/js/script.js" />
         <option value="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Wacky/js/script.js" />
+        <option value="$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Industry/Conditionals_Industry.html" />
       </list>
     </option>
   </component>
@@ -667,7 +665,7 @@
     <entry file="file://$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Industry/Conditionals_Industry.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0996016" vertical-offset="0" max-vertical-offset="753">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
