@@ -13,8 +13,9 @@
 var totalTimes = [];
 var shower = prompt("will you take a shower?");
 var brushTeeth = prompt("will you brush your teeth?");
-var breakfastCereal = 10;
-var breakfastPancakes = 30;
+var breakfast = prompt("will you be eating breakfast?");
+var breakfastType = prompt("cereal or pancakes?");
+
 
 if ( shower === "yes"){
     totalTimes [0] = 20
