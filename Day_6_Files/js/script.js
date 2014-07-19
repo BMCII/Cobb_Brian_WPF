@@ -50,4 +50,19 @@ else {
     console.log("good luck")
 }
 
+//ternary
+
+var x = 5;
+
+if(x>5){
+    console.log("your number is greater than 5")
+
+} else {
+    console.log("the number is 5 or less")
+
+
+}
+var results = (x>5)? "your number is greater than 5." : "your number is less than 5";
+console.log(results)
+
 

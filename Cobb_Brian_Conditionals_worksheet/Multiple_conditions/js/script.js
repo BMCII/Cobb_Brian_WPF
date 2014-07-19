@@ -11,6 +11,7 @@
 //variables are time and age
 
 var age = prompt("are you a senior citizen? (55 and up)");
+var time = prompt("what time is your movie");
 
 
 
@@ -18,10 +19,11 @@ var age = prompt("are you a senior citizen? (55 and up)");
 
 if (age === "yes") {
     alert("the ticket price is $7");
-    var time = prompt("what time is your movie");
 
 
-} else if (time >= 3 && time <=5) {
+
+}
+else if (time >= 3 && time <=5) {
     alert("the ticket price is $7")
 
 
