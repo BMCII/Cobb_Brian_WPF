@@ -12,9 +12,15 @@ alert("testing 1,2,3");
 //if its warm beach if not movies
 
 var temp = 90;
+var waterTemp = 78;
 
 if (temp>=85){
-    console.log("beach")
+    console.log("beach");
+    if(waterTemp>=75){
+        console.log("swimming")
+    } else {
+        console.log("tan")
+    }
 
 } else {
     console.log("Movies");
@@ -22,12 +28,8 @@ if (temp>=85){
 
 //warm water swim cold tan
 
-var waterTemp = 78;
 
-if(waterTemp>=75){
-    console.log("swimming")
-} else {
-    console.log("tan")
-}
+
+
 
 
