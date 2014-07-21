@@ -11,7 +11,7 @@
 
 
 //alert("testing 1,2,3");
-
+var totalPrice = 0;
 var basePrice = prompt("Is client website basic, ecommerce or a blog");
 if (basePrice === "basic" || basePrice === "Basic"){
     basePrice = 500
@@ -24,7 +24,17 @@ if (basePrice === "basic" || basePrice === "Basic"){
 } else {
     basePrice = 300
 
+//calculate extra cost for extra pages at 100 each
+
+}
+totalPrice = basePrice;
+var extraPages = prompt("does client require extra pages");
+if (extraPages === "yes" || extraPages === "Yes"){
+    var numberOfExtraPages = prompt("How many extra pages are needed?");
+    var numberOfExtraPagesNumber = parseInt(numberOfExtraPages)
+    totalPrice += numberOfExtraPagesNumber * 100
 }
 
-console.log(basePrice);
 
+//console.log(basePrice);
+console.log(totalPrice);
