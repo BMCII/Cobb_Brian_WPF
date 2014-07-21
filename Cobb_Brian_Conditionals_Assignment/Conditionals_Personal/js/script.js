@@ -39,9 +39,10 @@ if (breakfast === "yes"){
     }
 }
 var drive = prompt("how many minutes does it take you to get to work?");
+var driveNumber = parseInt(drive);
 var gas = prompt("Will you need to stop for gas?");
 
-timeUsed += drive;
+timeUsed += driveNumber;
 
 if (gas === "yes" || "Yes"){
     timeUsed += 10
