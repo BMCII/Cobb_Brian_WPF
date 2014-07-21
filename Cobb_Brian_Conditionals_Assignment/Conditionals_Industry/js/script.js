@@ -38,6 +38,8 @@ if (extraPages === "yes" || extraPages === "Yes"){
     totalPrice += numberOfExtraPagesNumber * 100
 }
 
+// how about a rush price
+
 var rush = prompt("Did client request a rush?");
 
 if (rush === "yes" || rush === "Yes"){
@@ -49,7 +51,7 @@ var discount = prompt("Is client getting a discount");
 
 if (discount === "yes" || discount === "Yes"){
      discount = prompt("Is discount nominal or a percentage");
-    if (discount === "nominal" || discount ==="Nominal"){
+    if (discount === "nominal" || discount === "Nominal"){
         discount = prompt("How much is the discount in dollars?")
     } else {
         discount = prompt("what is the percentage of the discount?") / 100 * totalPrice;
@@ -60,6 +62,8 @@ if (discount === "yes" || discount === "Yes"){
 }
 discount = parseInt(discount);
 totalPrice += discount;
+
+alert ("You should charge your client $" + totalPrice + " to make this website.");
 
 
 
