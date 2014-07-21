@@ -149,8 +149,14 @@ if (hour === 24){
 }
 //minute = (minuteCalculated + timeUsed%60)*60 = 60 - (minutesCalculated + timeUsed%60);
 
-var answer = ("You need to set your alarm for " + hour + ":" + minute);
-alert(answer);
+if (hour < -23){
+    alert("You live to far from work!")
+
+} else {
+
+    var answer = ("You need to set your alarm for " + hour + ":" + minute);
+    alert(answer);
+}
 
 console.log(hour);
 console.log(minute);
