@@ -27,9 +27,15 @@ if (brushTeeth === "yes"){
 }
 if (breakfast === "yes"){
     breakfastMeal = prompt("cereal or pancakes");
-    if (breakfastMeal === "cereal"){
+
+    if (breakfastMeal === "cereal" || "Cereal"){
         timeUsed += 10
 
+    } else if (breakfastMeal ==="pancakes" || "Pancakes" ) {
+        timeUsed += 30
+
+    } else {
+        timeUsed += 20
     }
 }
 console.log(timeUsed);
