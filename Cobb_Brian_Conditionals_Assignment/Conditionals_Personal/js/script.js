@@ -51,17 +51,19 @@ if (gas === "yes" || "Yes"){
 var hourWorkStarts = prompt("What is the hour your work starts?");
 var minuteWorkStarts = prompt ("at what minute does your work start?");
 var minutesCalculated = parseInt(minuteWorkStarts) / 60;
+var workTimeCalculated = hourWorkStarts + minutesCalculated;
+var alarmTime = workTimeCalculated - (timeUsed / 60);
 
 //hourWorkStarts - (math.floor(timeUsed/60))
 
 var hour = hourWorkStarts - (Math.ceil(timeUsed/60));
 
 //minute = (minuteCalculated + timeUsed%60)*60
-var minute = (minutesCalculated + timeUsed%60);
+var minute = 60 - (minutesCalculated + timeUsed%60);
 
 
 console.log(hour);
-console.log(minute)
+console.log(minute);
 
 
 
