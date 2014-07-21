@@ -53,10 +53,13 @@ if (discount === "yes" || discount === "Yes"){
         discount = prompt("How much is the discount in dollars?")
     } else {
         discount = prompt("what is the percentage of the discount?") / 100 * totalPrice;
-
     }
 
+} else {
+    discount = 0
 }
+discount = parseInt(discount);
+totalPrice += discount;
 
 
 
