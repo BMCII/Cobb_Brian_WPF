@@ -27,13 +27,24 @@ if (basePrice === "basic" || basePrice === "Basic"){
 //calculate extra cost for extra pages at 100 each
 
 }
+
+// set total price as base price
+
 totalPrice = basePrice;
 var extraPages = prompt("does client require extra pages");
 if (extraPages === "yes" || extraPages === "Yes"){
     var numberOfExtraPages = prompt("How many extra pages are needed?");
-    var numberOfExtraPagesNumber = parseInt(numberOfExtraPages)
+    var numberOfExtraPagesNumber = parseInt(numberOfExtraPages);
     totalPrice += numberOfExtraPagesNumber * 100
 }
+
+var rush = prompt("Did client request a rush?");
+
+if (rush === "yes" || rush === "Yes"){
+    totalPrice = totalPrice + (totalPrice * 0.2)
+
+}
+
 
 
 //console.log(basePrice);
