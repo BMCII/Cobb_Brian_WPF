@@ -18,19 +18,18 @@ var breakfast = prompt("will you be eating breakfast?");
 
 
 if ( shower === "yes"){
-    totalTimes [0] = 20
-} else {
-    totalTimes [0] = 0
+    timeUsed += 20
+
 }
 if (brushTeeth === "yes"){
-    totalTimes[1] = 5
-
-} else {
-    totalTimes[1] = 0
+    timeUsed += 5
 
 }
 if (breakfast === "yes"){
-    prompt("cereal or pancakes")
-    
+    breakfastMeal = prompt("cereal or pancakes");
+    if (breakfastMeal === "cereal"){
+        timeUsed += 10
 
+    }
 }
+console.log(timeUsed);
