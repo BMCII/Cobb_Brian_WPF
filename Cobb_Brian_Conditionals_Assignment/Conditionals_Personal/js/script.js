@@ -21,23 +21,27 @@ if ( shower === "yes"){
     timeUsed += 20
 
 }
+//console.log(timeUsed);
 if (brushTeeth === "yes"){
     timeUsed += 5
 
 }
+//console.log(timeUsed);
 if (breakfast === "yes"){
     breakfastMeal = prompt("cereal or pancakes");
 
-    if (breakfastMeal === "cereal" || "Cereal"){
+    if (breakfastMeal === "cereal" || breakfastMeal === "Cereal"){
         timeUsed += 10
 
-    } else if (breakfastMeal ==="pancakes" || "Pancakes" ) {
+    } else if (breakfastMeal ==="pancakes" || breakfastMeal ==="Pancakes" ) {
         timeUsed += 30
 
     } else {
         timeUsed += 20
     }
 }
+
+console.log(timeUsed);
 var drive = prompt("how many minutes does it take you to get to work?");
 var driveNumber = parseInt(drive);
 var gas = prompt("Will you need to stop for gas?");
@@ -54,12 +58,18 @@ var minutesCalculated = parseInt(minuteWorkStarts) / 60;
 var workTimeCalculated = hourWorkStarts + minutesCalculated;
 var alarmTime = workTimeCalculated - (timeUsed / 60);
 
-//hourWorkStarts - (math.floor(timeUsed/60))
+/*console.log(timeUsed);
+console.log(hourWorkStarts);
+console.log(minuteWorkStarts);
+console.log(minutesCalculated);
+console.log(workTimeCalculated);
+console.log(alarmTime);
+*/
 
-var hour = hourWorkStarts - (Math.ceil(timeUsed/60));
+var hour = Math.floor(alarmTime);
+var minute = (alarmTime - hour) * 60;
 
-//minute = (minuteCalculated + timeUsed%60)*60
-var minute = 60 - (minutesCalculated + timeUsed%60);
+//minute = (minuteCalculated + timeUsed%60)*60 = 60 - (minutesCalculated + timeUsed%60);
 
 
 console.log(hour);
@@ -67,5 +77,5 @@ console.log(minute);
 
 
 
-console.log(timeUsed);
+//console.log(timeUsed);
 
