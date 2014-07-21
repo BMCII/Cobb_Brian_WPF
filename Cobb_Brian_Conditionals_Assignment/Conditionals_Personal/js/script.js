@@ -41,7 +41,7 @@ if (breakfast === "yes"){
     }
 }
 
-console.log(timeUsed);
+//console.log(timeUsed);
 var drive = prompt("how many minutes does it take you to get to work?");
 var driveNumber = parseInt(drive);
 var gas = prompt("Will you need to stop for gas?");
@@ -55,19 +55,19 @@ if (gas === "yes" || "Yes"){
 var hourWorkStarts = prompt("What is the hour your work starts?");
 var minuteWorkStarts = prompt ("at what minute does your work start?");
 var minutesCalculated = parseInt(minuteWorkStarts) / 60;
-var workTimeCalculated = hourWorkStarts + minutesCalculated;
+var workTimeCalculated = parseInt(hourWorkStarts) + minutesCalculated;
 var alarmTime = workTimeCalculated - (timeUsed / 60);
 
-/*console.log(timeUsed);
+console.log(timeUsed);
 console.log(hourWorkStarts);
 console.log(minuteWorkStarts);
 console.log(minutesCalculated);
 console.log(workTimeCalculated);
 console.log(alarmTime);
-*/
+
 
 var hour = Math.floor(alarmTime);
-var minute = (alarmTime - hour) * 60;
+var minute = Math.round((alarmTime - hour) * 60);
 
 //minute = (minuteCalculated + timeUsed%60)*60 = 60 - (minutesCalculated + timeUsed%60);
 
