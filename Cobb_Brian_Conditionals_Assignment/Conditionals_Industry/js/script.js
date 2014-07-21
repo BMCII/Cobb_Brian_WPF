@@ -17,6 +17,7 @@ var breakfast = prompt("will you be eating breakfast?");
 
 
 
+
 if ( shower === "yes"){
     timeUsed += 20
 
@@ -38,4 +39,7 @@ if (breakfast === "yes"){
         timeUsed += 20
     }
 }
+var drive = prompt("how many minutes does it take you to get to work?");
+var gas = prompt("Will you need to stop for gas?");
 console.log(timeUsed);
+
