@@ -5,4 +5,12 @@
  Conditional Personal
  */
 
-alert("testing 1,2,3");
+//freelance price calculator
+
+
+
+
+//alert("testing 1,2,3");
+
+var basePrice = prompt("Is client website basic, ecomerce or a blog");
+
