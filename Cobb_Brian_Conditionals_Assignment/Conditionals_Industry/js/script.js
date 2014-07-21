@@ -22,7 +22,7 @@ if (basePrice === "basic" || basePrice === "Basic"){
 
 
 } else {
-    basePrice = 300
+    basePrice = 300;
 
 //calculate extra cost for extra pages at 100 each
 
@@ -45,6 +45,18 @@ if (rush === "yes" || rush === "Yes"){
 
 }
 
+var discount = prompt("Is client getting a discount");
+
+if (discount === "yes" || discount === "Yes"){
+     discount = prompt("Is discount nominal or a percentage");
+    if (discount === "nominal" || "Nominal"){
+        discount = prompt("How much is the discount in dollars?")
+    } else if(discount === "percentage" || discount === "Percentage"){
+        discount = prompt("what is the percentage of the discount?")
+
+    }
+
+}
 
 
 
