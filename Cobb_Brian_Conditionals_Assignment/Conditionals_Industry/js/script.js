@@ -47,5 +47,6 @@ if (rush === "yes" || rush === "Yes"){
 
 
 
+
 //console.log(basePrice);
 console.log(totalPrice);
