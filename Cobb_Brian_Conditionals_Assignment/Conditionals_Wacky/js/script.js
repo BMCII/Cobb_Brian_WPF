@@ -38,7 +38,7 @@ if(blueWigClowns === "yes" || "Yes"){
 }
 console.log(answer);
 
-prompt("your car can fit " + answer +" of these clowns in your car.");
+alert("your car can fit " + answer +" of these clowns in your car.");
 
 
 
