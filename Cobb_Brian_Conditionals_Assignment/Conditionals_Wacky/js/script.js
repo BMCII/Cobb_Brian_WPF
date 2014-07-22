@@ -21,7 +21,8 @@ var carSize = prompt("How many passengers does your car normally hold");
 console.log(clownSizeNumber);
 
 
-
+var answer = carSize * 1.5 / clownSizeNumber;
+console.log(answer);
 
 
 
