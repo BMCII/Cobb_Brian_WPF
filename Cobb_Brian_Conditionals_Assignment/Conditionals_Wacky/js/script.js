@@ -11,16 +11,13 @@
 
 var clownSize = prompt("are your clowns big or small or a mix");
 
-if (clownSize === "mix" || "Mix"){
-    var bigClowns = prompt("how many are big?");
-    var smallClowns = prompt("how many are small")
-
-}
-(clownSize === "big" || clownSize === "Big") ? clownSizeNumber = 1 :  clownSizeNumber = 0.5;
 
 var clownSizeNumber = 0;
+(clownSize === "big" || clownSize === "Big") ? clownSizeNumber = 1 :  clownSizeNumber = 0.5;
 
-
+if(clownSize === "mix" || clownSize === "Mix") {
+    clownSizeNumber = 0.75
+}
 
 var carSize = prompt("How many passengers does your car normally hold");
 
@@ -31,7 +28,7 @@ console.log(clownSizeNumber);
 var answer = carSize * 1.5 / clownSizeNumber;
 console.log(answer);
 
-prompt("your car can fit " + answer +" clowns");
+prompt("your car can fit " + answer +" of these clowns in your car.");
 
 
 
