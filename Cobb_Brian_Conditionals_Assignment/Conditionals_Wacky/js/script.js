@@ -26,7 +26,9 @@ var blueWigClowns = prompt("do more than two clowns have blue wigs?");
 
 var carSize = prompt("How many passengers does your car normally hold");
 carSize = parseInt(carSize);
+
 //we all know clowns can fit 1 and a half times more into a car
+
 console.log(clownSizeNumber);
 
 
