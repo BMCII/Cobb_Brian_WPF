@@ -9,16 +9,18 @@
 
 //how many cl0wns can fit in a car
 
-var clownSize = prompt("are your clowns big or small of mix");
+var clownSize = prompt("are your clowns big or small or a mix");
+
 if (clownSize === "mix" || "Mix"){
     var bigClowns = prompt("how many are big?");
     var smallClowns = prompt("how many are small")
 
 }
+(clownSize === "big" || clownSize === "Big") ? clownSizeNumber = 1 :  clownSizeNumber = 0.5;
 
 var clownSizeNumber = 0;
 
-(clownSize === "big" || clownSize === "Big") ? clownSizeNumber = 1 :  clownSizeNumber = 0.5;
+
 
 var carSize = prompt("How many passengers does your car normally hold");
 
