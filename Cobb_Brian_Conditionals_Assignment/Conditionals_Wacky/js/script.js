@@ -11,15 +11,18 @@
 
 var clownSize = prompt("are your clowns big or small");
 
-if(clownSize === "big" || clownSize === "Big"){
-    var clownSizeNumber = 1
+var clownSizeNumber = 0;
 
-} else {
-    clownSizeNumber = 0.5
-}
+(clownSize === "big" || clownSize === "Big") ? clownSizeNumber = 1 :  clownSizeNumber = 0.5;
+
 var carSize = prompt("How many passengers does your car normally hold");
 
 //we all know clowns can fit 1 and a half times more into a car
+console.log(clownSizeNumber);
+
+
+
+
 
 
 
