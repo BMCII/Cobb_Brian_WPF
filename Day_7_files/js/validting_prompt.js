@@ -26,7 +26,7 @@ if (min===""){
 
 if(isNaN(parseInt(min))){
     console.log("we are in the if loop");
-    //reprompt the user
+    //re-prompt the user
     min = prompt("please type in only number")
 }
 

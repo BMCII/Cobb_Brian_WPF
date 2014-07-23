@@ -10,6 +10,12 @@
 
 var i = prompt("where do we start the countdown");
 
+while(i === "" || isNaN(i)){
+
+    i = prompt("only type numbers")
+
+}
+
 do {
     alert( i);
     i--;
@@ -20,3 +26,4 @@ do {
 
 
 } while(i>0);
+
