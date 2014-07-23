@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fae8d52-7ca4-4f95-891b-f0b7cea2c6d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day_8_files/js/arguments.js" afterPath="$PROJECT_DIR$/Day_8_files/js/arguments.js" />
-    </list>
+    <list default="true" id="8fae8d52-7ca4-4f95-891b-f0b7cea2c6d1" name="Default" comment="" />
     <ignored path="Cobb_Brian_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,14 +33,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arguments.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="arguments.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day_8_files/js/arguments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8687259" vertical-offset="0" max-vertical-offset="810">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
               <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="returning_values.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day_8_files/returning_values.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="240">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="returning_values.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day_8_files/js/returning_values.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5405405" vertical-offset="0" max-vertical-offset="777">
+              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Day 5 files/js/logical.js" />
-        <option value="$PROJECT_DIR$/Day 5 files/Ternary.html" />
         <option value="$PROJECT_DIR$/Day 5 files/js/Ternary.js" />
         <option value="$PROJECT_DIR$/Expressions_Industry/Expressions_Industry.html" />
         <option value="$PROJECT_DIR$/Expressions_Personal/js/script.js" />
@@ -111,6 +127,8 @@
         <option value="$PROJECT_DIR$/Day_8_files/js/scope.js" />
         <option value="$PROJECT_DIR$/Day_8_files/arguments.html" />
         <option value="$PROJECT_DIR$/Day_8_files/js/arguments.js" />
+        <option value="$PROJECT_DIR$/Day_8_files/returning_values.html" />
+        <option value="$PROJECT_DIR$/Day_8_files/js/returning_values.js" />
       </list>
     </option>
   </component>
@@ -256,6 +274,22 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
@@ -335,24 +369,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cobb_Brian_Conditionals_worksheet/Expressions_with_Conditionals/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day_6_Files/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="1035">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cobb_Brian_Conditionals_worksheet/Multiple_conditions/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
@@ -747,11 +763,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day_8_files/js/arguments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8687259" vertical-offset="0" max-vertical-offset="810">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_8_files/returning_values.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="240">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_8_files/js/returning_values.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5405405" vertical-offset="0" max-vertical-offset="777">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
