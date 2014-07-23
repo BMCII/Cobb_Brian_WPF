@@ -32,3 +32,18 @@ calcArea(5,6);
 
 //add arguments and parameters
 //make function more flexible
+
+
+//create function will convert human years to dog years
+
+function dogYears(humanYears){
+    //input human year spit out dog years
+    //dogYears = human * 7
+    var dogAge = humanYears * 7;
+    console.log("your dog is " + dogAge)
+}
+
+dogYears(5);
+
+var userInput = prompt ("lets convert your dogs age\nhow old is your dog");
+dogYears(userInput);
