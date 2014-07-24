@@ -27,5 +27,6 @@ alert("It takes " + totalDeath.toFixed(2) + " bee stings to kill this animal.");
 
 
 function circCirc(rad){
-    var
+    var circle = 2 * Math.PI * rad
+    return circle
 }
