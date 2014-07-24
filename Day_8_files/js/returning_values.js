@@ -58,4 +58,4 @@ var cost = prompt("cost?");
 var pizzaArea = circleArea(pizzaRadius);
 var pizzaInchCost = pizzaArea / cost;
 
-console.log("your pizza costs $" + pizzaInchCost.toFixed(2));
+console.log("your pizza costs $" + pizzaInchCost);
