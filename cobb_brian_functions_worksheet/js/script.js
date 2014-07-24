@@ -30,3 +30,7 @@ function circCirc(rad){
     var circle = 2 * Math.PI * rad
     return circle
 }
+
+var radius = prompt("what is the radius?");
+var answer = circCirc(radius);
+
