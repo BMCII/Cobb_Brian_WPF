@@ -24,3 +24,8 @@ alert("It takes " + totalDeath.toFixed(2) + " bee stings to kill this animal.");
 
 
 //Circumference of circle
+
+
+function circCirc(rad){
+    var
+}
