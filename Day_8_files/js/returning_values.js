@@ -31,4 +31,31 @@ var results = calcArea(width , height);
 console.log("the area is " + results);
 
 
-//
+//create a function for calc area circ
+
+function circleArea(r){
+    var area = 2*r*Math.PI;
+
+    return area;
+}
+
+//ask user for radius
+
+var rad1 = prompt("lets calc circ \n type radius");
+var firstArea = circleArea(rad1);
+console.log("the are of circ with r of " + rad1 + " is " + firstArea.toFixed(2));
+
+//prompt user for another circle
+
+var rad2 = prompt("please enter another radius");
+var secondArea = circleArea(rad2);
+console.log("the are of circ with r of " + rad2 + " is " + secondArea.toFixed(2));
+
+var pizzaRadius = prompt("pizza radius?");
+var cost = prompt("cost?");
+//use existing function
+
+var pizzaArea = circleArea(pizzaRadius);
+var pizzaInchCost = pizzaArea / cost;
+
+console.log("your pizza costs $" + pizzaInchCost.toFixed(2));
