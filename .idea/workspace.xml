@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fae8d52-7ca4-4f95-891b-f0b7cea2c6d1" name="Default" comment="" />
+    <list default="true" id="8fae8d52-7ca4-4f95-891b-f0b7cea2c6d1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day_9_files/js/advanced_arrays.js" afterPath="$PROJECT_DIR$/Day_9_files/js/advanced_arrays.js" />
+    </list>
     <ignored path="Cobb_Brian_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,18 +25,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="advanced_arrays.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day_9_files/advanced_arrays.html">
+      <file leaf-file-name="anon_function.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day_9_files/anon_function.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0996016" vertical-offset="0" max-vertical-offset="753">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advanced_arrays.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day_9_files/js/advanced_arrays.js">
+      <file leaf-file-name="anon_function.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day_9_files/js/anon_function.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -56,8 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Day_6_Files/js/script.js" />
-        <option value="$PROJECT_DIR$/Day_6_Files/js/Nested_ifs.html" />
         <option value="$PROJECT_DIR$/Day_6_Files/Nested_ifs.html" />
         <option value="$PROJECT_DIR$/Day_6_Files/js/Nested_Script.js" />
         <option value="$PROJECT_DIR$/Day_6_Files/Math.html" />
@@ -107,6 +107,8 @@
         <option value="$PROJECT_DIR$/Day_9_files/multiple_functions.html" />
         <option value="$PROJECT_DIR$/Day_9_files/js/multiple_funcrtons.js" />
         <option value="$PROJECT_DIR$/Day_9_files/advanced_arrays.html" />
+        <option value="$PROJECT_DIR$/Day_9_files/js/advanced_arrays.js" />
+        <option value="$PROJECT_DIR$/Day_9_files/anon_function.html" />
       </list>
     </option>
   </component>
@@ -380,22 +382,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day 4 Files/js/prompting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 3 Files/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2985">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day_6_Files/Math.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
@@ -780,8 +766,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day_9_files/js/advanced_arrays.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6177606" vertical-offset="0" max-vertical-offset="777">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -790,6 +776,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0996016" vertical-offset="0" max-vertical-offset="753">
           <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_9_files/js/anon_function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_9_files/anon_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0996016" vertical-offset="0" max-vertical-offset="753">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>
