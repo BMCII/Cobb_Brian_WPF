@@ -46,13 +46,16 @@ function circCirc(rad){
 }
 
 var radius = parseInt(prompt("what is the radius?"));
-var answer = circCirc(radius);
+
 
 
 while(radius === "" || isNaN(radius)) {
 
     radius = parseInt(prompt("Enter only numbers"));
 }
+
+var answer = circCirc(radius);
+
 alert("The circumference of the circle is " + answer.toFixed(2));
 
 
