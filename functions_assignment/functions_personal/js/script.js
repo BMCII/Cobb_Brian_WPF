@@ -16,5 +16,10 @@ function cupVolume(h , bigD , lilD){
 
 }
 
-var 
+var height = prompt("how tall is your cup");
+var bigDia = prompt("how wide is the mouth of your cup");
+var lilDia = prompt("how wide is the base of your cup");
+var bigRad = bigDia/2;
+var lilRad = lilDia/2;
 
+ 
