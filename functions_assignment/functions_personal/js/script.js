@@ -23,3 +23,4 @@ var bigRad = bigDia/2;
 var lilRad = lilDia/2;
 
 var finalVolume = cupVolume(height, bigRad, lilRad);
+alert("the volume of your cup is " + finalVolume);
