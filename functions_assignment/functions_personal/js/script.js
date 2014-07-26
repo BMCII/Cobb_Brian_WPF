@@ -10,9 +10,9 @@ alert("testing 1,2,3");
 //finding the volume of your cup or
 //volume of a truncated cone
 
-function cupVolume(h , bigD , lilD){
-    var cupVol = (Math.PI/3)(h)(bigD^2+(lilD*bigD)+ lilD)
-    return cupVol
+function cupVolume(h , bigR , lilR){
+    var volCup = (Math.PI/3)(h)(bigR^2+(lilR*bigR)+ lilR);
+    return volCup
 
 }
 
