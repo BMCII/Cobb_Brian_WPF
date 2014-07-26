@@ -22,4 +22,4 @@ var lilDia = prompt("how wide is the base of your cup");
 var bigRad = bigDia/2;
 var lilRad = lilDia/2;
 
- 
+var finalVolume = cupVolume(height, bigRad, lilRad);
