@@ -34,13 +34,15 @@ var webPage = prompt("How many pixals wide is your web page?");
 
     while(webPage === "" || isNaN(webPage)) {
 
-    webPage = parseInt(prompt("only type numbers"))
-}
+        webPage = parseInt(prompt("only type numbers"))
+    }
+
 var webPageBorder = prompt("how many pixals is your web page border?");
 
-    while(webPageBorder === "" || isNaN(webPageBorder)){
+    while(webPageBorder === "" || isNaN(webPageBorder)) {
 
-    webPageBorder = parseInt(prompt("only type numbers"));
+        webPageBorder = parseInt(prompt("only type numbers"))
+    }
 
 var finalSize = columnsSize(columns , border , webPage , webPageBorder);
 var answer = Math.round(finalSize);
