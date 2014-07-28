@@ -18,7 +18,9 @@ function columnsSize(columns , border , webPage){
 
 }
 
-var columns = ("how many columns do you need?");
-var border = ("how many pixals wide is your border for each column?");
-var webPage = ("How many pixals wide is your web page?");
-var webPageBorder = ("how many pixals is your web page border?");
+var columns = prompt("how many columns do you need?");
+var border = prompt("how many pixals wide is your border for each column?");
+var webPage = prompt("How many pixals wide is your web page?");
+var webPageBorder = prompt("how many pixals is your web page border?");
+
+var answer = Math.round(columnWidth);
