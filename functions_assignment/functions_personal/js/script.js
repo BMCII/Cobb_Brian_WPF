@@ -10,11 +10,11 @@
 //finding the volume of your cup or
 //volume of a truncated cone
 
-var num = (Math.PI/3);
+
 console.log(num);
 
 function cupVolume(h , bigR , lilR){
-    var volCup = num * h * (bigR^2+(lilR*bigR)+ lilR);
+    var volCup = (Math.PI/3) * h * (bigR^2+(lilR*bigR)+ lilR);
     return volCup
 
 }
