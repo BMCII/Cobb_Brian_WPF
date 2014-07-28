@@ -2,7 +2,11 @@
  Brian Cobb
  WPF 1407
  7/14/2014
- Arrays
+ Functions Industry
  */
 
-alert("testing 1,2,3");
+//alert("testing 1,2,3");
+
+
+//calculating columns for web site
+
