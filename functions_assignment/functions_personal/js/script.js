@@ -31,7 +31,7 @@ var height = parseInt(prompt("how tall is your cup"));
 
 while(height === "" || isNaN(height)){
 
-    height = prompt("only type numbers")
+    height = parseInt(prompt("only type numbers"))
 
 }
 var bigDia = parseInt(prompt("how wide is the mouth of your cup"));
@@ -40,7 +40,7 @@ var bigDia = parseInt(prompt("how wide is the mouth of your cup"));
 
 while(bigDia === "" || isNaN(bigDia)){
 
-    bigDia = prompt("only type numbers")
+    bigDia = parseInt(prompt("only type numbers"))
 
 }
 var lilDia = parseInt(prompt("how wide is the base of your cup"));
@@ -49,7 +49,7 @@ var lilDia = parseInt(prompt("how wide is the base of your cup"));
 
 while(lilDia === "" || isNaN(lilDia)){
 
-    lilDia = prompt("only type numbers")
+    lilDia = parseInt(prompt("only type numbers"))
 
 }
 
