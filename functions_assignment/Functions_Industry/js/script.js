@@ -10,3 +10,5 @@
 
 //calculating columns for web site
 
+var columns = ("how many columns do you need?");
+var border = ("how big is your border for each column?");
