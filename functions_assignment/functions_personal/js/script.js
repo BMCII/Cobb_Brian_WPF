@@ -11,13 +11,15 @@
 //volume of a truncated cone
 
 
-console.log(num);
+//create function
 
 function cupVolume(h , bigR , lilR){
     var volCup = (Math.PI/3) * h * (bigR^2+(lilR*bigR)+ lilR);
     return volCup
 
 }
+
+//now create variables
 
 var height = parseInt(prompt("how tall is your cup"));
 var bigDia = parseInt(prompt("how wide is the mouth of your cup"));
