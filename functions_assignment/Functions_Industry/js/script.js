@@ -12,8 +12,8 @@
 
 //create function
 
-function columnsSize(columns , border , webPage){
-    var columnWidth = ((webPage - webPageBorder)/(columns + border));
+function columnsSize(columns , border , webPage , webPageBorder){
+    var columnWidth = ((webPage - webPageBorder )/(columns + border));
     return columnWidth
 
 }
@@ -23,4 +23,7 @@ var border = prompt("how many pixals wide is your border for each column?");
 var webPage = prompt("How many pixals wide is your web page?");
 var webPageBorder = prompt("how many pixals is your web page border?");
 
-var answer = Math.round(columnWidth);
+var finalSize = columnsSize(columns , border , webPage , webPageBorder);
+var answer = Math.round(finalSize);
+
+alert(answer);
