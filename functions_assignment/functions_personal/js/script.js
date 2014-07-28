@@ -19,6 +19,10 @@ function cupVolume(h , bigR , lilR){
 
 }
 
+//tell user unit of measurement
+
+alert("all measurements are in inches");
+
 //now prompt user to create variables
 
 var height = parseInt(prompt("how tall is your cup"));
@@ -40,6 +44,14 @@ while(bigDia === "" || isNaN(bigDia)){
 
 }
 var lilDia = parseInt(prompt("how wide is the base of your cup"));
+
+//validate
+
+while(lilDia === "" || isNaN(lilDia)){
+
+    lilDia = prompt("only type numbers")
+
+}
 
 
 //now convert diameter to radius
