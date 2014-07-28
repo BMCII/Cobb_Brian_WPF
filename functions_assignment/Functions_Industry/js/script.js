@@ -18,26 +18,26 @@ function columnsSize(columns , border , webPage , webPageBorder){
 
 }
 
-var columns = prompt("how many columns do you need?");
+var columns = parseInt(prompt("how many columns do you need?"));
 
 while(columns === "" || isNaN(columns)) {
     columns = parseInt(prompt("only type numbers"))
 }
-var border = prompt("how many pixals wide is your border for each column?");
+var border = parseInt(prompt("how many pixals wide is your border for each column?"));
 
     while(border === "" || isNaN(border)) {
 
         border = parseInt(prompt("only type numbers"))
     }
 
-var webPage = prompt("How many pixals wide is your web page?");
+var webPage = parseInt(prompt("How many pixals wide is your web page?"));
 
     while(webPage === "" || isNaN(webPage)) {
 
         webPage = parseInt(prompt("only type numbers"))
     }
 
-var webPageBorder = prompt("how many pixals is your web page border?");
+var webPageBorder = parseInt(prompt("how many pixals is your web page border?"));
 
     while(webPageBorder === "" || isNaN(webPageBorder)) {
 
