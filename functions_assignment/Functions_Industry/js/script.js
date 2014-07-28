@@ -10,6 +10,8 @@
 
 //calculating columns for web site
 
+//create function
+
 function columnsSize(columns , border , webPage){
     var columnWidth = ((webPage - webPageBorder)/(columns + border));
     return columnWidth
