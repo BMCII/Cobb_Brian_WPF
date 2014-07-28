@@ -24,10 +24,23 @@ function cupVolume(h , bigR , lilR){
 var height = parseInt(prompt("how tall is your cup"));
 
 //validate
+
+while(height === "" || isNaN(height)){
+
+    height = prompt("only type numbers")
+
+}
 var bigDia = parseInt(prompt("how wide is the mouth of your cup"));
 
 //validate
+
+while(bigDia === "" || isNaN(bigDia)){
+
+    bigDia = prompt("only type numbers")
+
+}
 var lilDia = parseInt(prompt("how wide is the base of your cup"));
+
 
 //now convert diameter to radius
 
