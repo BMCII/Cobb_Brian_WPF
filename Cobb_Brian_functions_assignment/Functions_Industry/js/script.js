@@ -18,7 +18,11 @@ function columnsSize(columns , border , webPage , webPageBorder){
 
 }
 
+//now variables
+
 var columns = parseInt(prompt("how many columns do you need?"));
+
+//validate
 
 while(columns === "" || isNaN(columns)) {
     columns = parseInt(prompt("only type numbers"))
