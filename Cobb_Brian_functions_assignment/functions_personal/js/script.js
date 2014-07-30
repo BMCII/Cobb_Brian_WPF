@@ -66,3 +66,5 @@ var finalVolume = cupVolume(height, bigRad, lilRad);
 var answer = finalVolume.toFixed(2);
 
 alert("the volume of your cup is " + answer + " inches³");
+
+//now change to ounces
