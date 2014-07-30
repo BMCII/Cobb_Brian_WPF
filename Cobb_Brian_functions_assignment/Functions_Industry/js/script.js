@@ -55,7 +55,14 @@ var webPageBorder = parseInt(prompt("how many pixals is your web page border?"))
         webPageBorder = parseInt(prompt("only type numbers"))
     }
 
+//call function
+
 var finalSize = columnsSize(columns , border , webPage , webPageBorder);
+
+//round answer
+
 var answer = Math.round(finalSize);
+
+//alert user
 
 alert(answer);
