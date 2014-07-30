@@ -40,4 +40,4 @@ var discountedPrice = discountCalculator(costItem , discountPercent);
 
 //console.log answer
 
-console.log("with a discount of " + discountPercent + " percent your item that originally costs " + costItem  + " now costs $" + discountedPrice );
+console.log ("with a discount of " + discountPercent.toFixed(2) + " percent your item that originally costs " + costItem.toFixed(2)  + " now costs $" + discountedPrice.toFixed(2));
