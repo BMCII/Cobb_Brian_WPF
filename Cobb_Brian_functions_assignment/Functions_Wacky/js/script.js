@@ -58,7 +58,7 @@ var height = prompt ("in feet, how high is the roller coaster?");
     height = prompt("height must be a number")
     }
 
-//conditionals
+//conditions
 
 if (height > 200){
     heightFactor = 2
@@ -77,6 +77,9 @@ if (height > 200){
 //next variable
 
 var eyeColor = prompt("what color are your eyes");
+
+//conditions
+
     if (eyeColor === "blue" || "Blue"){
         eyeColorFactor = 1.5
 
@@ -84,9 +87,12 @@ var eyeColor = prompt("what color are your eyes");
         eyeColorFactor = 2
 
     }
-
+//headaches variable
 
 var headAches = prompt("are you prone to headaches");
+
+//conditions
+
     if(headAches === "yes" || "Yes"){
         headAcheFactor = 2
 
@@ -94,7 +100,11 @@ var headAches = prompt("are you prone to headaches");
         headAcheFactor = 1
     }
 
+//call function
+
 var answer = getSick(topSpeedFactor , heightFactor , eyeColorFactor , headAcheFactor);
+
+//create go/no go variable for user
 
 var sick;
 
