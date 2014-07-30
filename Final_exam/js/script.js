@@ -26,12 +26,18 @@ while(discountPercent === "" || isNaN(discountPercent || discountPercent < 0 || 
 
 }
 
+//create function
+
 function discountCalculator(cost , discount){
-    var discountPrice = cost * (discount / 100);
+    var discountPrice = cost - cost * (discount / 100);
     return discountPrice
 
 }
 
+//call function
+
 var discountedPrice = discountCalculator(costItem , discountPercent);
 
-console.log("with a discount of " + discountPercent + "your item that originally costs " + costItem  + " now costs $" + discountedPrice );
+//console.log answer
+
+console.log("with a discount of " + discountPercent + " percent your item that originally costs " + costItem  + " now costs $" + discountedPrice );
