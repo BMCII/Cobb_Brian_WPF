@@ -80,5 +80,11 @@ var headAches = prompt("are you prone to headaches");
         headAcheFactor = 1
     }
 
+var answer = getSick(topSpeedFactor , heightFactor , eyeColorFactor , headAcheFactor);
 
+var sick;
+
+sick = (answer<)?"green eggs and ham":"Time Machine";
+
+console.log (answer);
 
