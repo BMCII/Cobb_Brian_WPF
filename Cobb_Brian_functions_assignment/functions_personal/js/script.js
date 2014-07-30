@@ -11,7 +11,7 @@
 //volume of a truncated cone
 
 
-//create function
+//create functions
 
 function cupVolume(h , bigR , lilR){
     var volCup = (Math.PI/3) * h * (bigR^2+(lilR*bigR)+ lilR);
@@ -80,5 +80,7 @@ var convert = prompt("do you want to convert this to ounces?");
 var conversion;
 
 conversion = (convert === "yes" || convert === "Yes")?  inchesCubedToOunces(answer):alert("have a nice day");
+
+//alert user of answer
 
 alert (conversion.toFixed(2) + " ounces");
