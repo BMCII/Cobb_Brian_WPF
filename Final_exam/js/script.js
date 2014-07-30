@@ -19,3 +19,9 @@ while(costItem === "" || isNaN(costItem)){
  var discount = parseInt(prompt("enter discount percent"));
 
 //validate
+
+while(discount === "" || isNaN(discount || discount < 0 || discount >= 100)){
+
+    discount = parseInt(prompt("discount must a number and between 0 and 100"));
+
+}
