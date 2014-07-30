@@ -8,11 +8,14 @@
 //alert("testing 1,2,3");
 
 
-var costItem = prompt("what is the cost of your item");
+var costItem = parseInt(prompt("what is the cost of your item"));
 
 //validate
 while(costItem === "" || isNaN(costItem)){
 
-    costItem = prompt("cost can only be numbers")
+    costItem = parseInt(prompt("cost can only be a number"))
 
 }
+ var discount = parseInt(prompt("enter discount percent"));
+
+//validate
