@@ -16,12 +16,18 @@ while(costItem === "" || isNaN(costItem)){
     costItem = parseInt(prompt("cost can only be a number"))
 
 }
- var discount = parseInt(prompt("enter discount percent"));
+ var discountPercent = parseInt(prompt("enter discount percent"));
 
 //validate
 
-while(discount === "" || isNaN(discount || discount < 0 || discount >= 100)){
+while(discountPercent === "" || isNaN(discountPercent || discountPercent < 0 || discountPercent >= 100)){
 
-    discount = parseInt(prompt("discount must a number and between 0 and 100"));
+    discountPercent = parseInt(prompt("discount must a number and between 0 and 100"));
+
+}
+
+function discountCalculator(cost , discount){
+    var discountPrice = cost * (discount / 100)
+    return discountPrice
 
 }
