@@ -84,7 +84,7 @@ var answer = getSick(topSpeedFactor , heightFactor , eyeColorFactor , headAcheFa
 
 var sick;
 
-sick = (answer<)?"green eggs and ham":"Time Machine";
+sick = (answer<= 50)?"your probably not going to get sick":"don't do it you'll puke!";
 
-console.log (answer);
+alert(sick);
 
