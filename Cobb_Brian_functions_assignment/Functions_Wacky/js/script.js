@@ -15,7 +15,8 @@ function getSick(topS , h , eye , head){
     return sick
 
 }
-
+var topSpeedFactor = 0
+var eyeColorFactor = 0
 var topSpeed = prompt("what is the top speed roller coaster in MPH?");
 //validate
     while(topSpeed === "" || isNaN(topSpeed)){
@@ -34,6 +35,8 @@ var topSpeed = prompt("what is the top speed roller coaster in MPH?");
     } else {
         topSpeedFactor = 15
     }
+
+console.log(topSpeedFactor);
 
 var height = prompt ("how high is the roller coaster?");
 
