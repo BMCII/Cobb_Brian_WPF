@@ -110,5 +110,7 @@ var sick;
 
 sick = (answer<= 50)?"your probably not going to get sick":"don't do it you'll puke!";
 
+//alert user
+
 alert(sick);
 
