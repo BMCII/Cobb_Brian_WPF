@@ -41,11 +41,20 @@ var topSpeed = prompt("what is the top speed roller coaster in MPH?");
 
 console.log(topSpeedFactor);
 
-var height = prompt ("how high is the roller coaster?");
-    if (){
-        
-    }
+var height = prompt ("in feet, how high is the roller coaster?");
+    if (height > 200){
+        heightFactor = 2
 
+    } else if (height > 150){
+        heightFactor = 1.5
+
+    } else if (height > 100){
+        heightFactor = 1.2
+
+    } else {
+        heightFactor = 1
+
+    }
 
 
 //validate
@@ -64,4 +73,12 @@ var eyeColor = prompt("what color are your eyes");
 
 
 var headAches = prompt("are you prone to headaches");
+    if(headAches === "yes" || "Yes"){
+        headAcheFactor = 2
+
+    } else {
+        headAcheFactor = 1
+    }
+
+
 
