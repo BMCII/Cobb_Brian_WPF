@@ -27,7 +27,9 @@ while(discountPercent === "" || isNaN(discountPercent || discountPercent < 0 || 
 }
 
 function discountCalculator(cost , discount){
-    var discountPrice = cost * (discount / 100)
+    var discountPrice = cost * (discount / 100);
     return discountPrice
 
 }
+
+var discountedPrice = discountCalculator(costItem , discountPercent);
