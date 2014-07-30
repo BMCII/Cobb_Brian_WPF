@@ -33,3 +33,5 @@ function discountCalculator(cost , discount){
 }
 
 var discountedPrice = discountCalculator(costItem , discountPercent);
+
+console.log("with a discount of " + discountPercent + "your item that originally costs " + costItem  + " now costs $" + discountedPrice );
