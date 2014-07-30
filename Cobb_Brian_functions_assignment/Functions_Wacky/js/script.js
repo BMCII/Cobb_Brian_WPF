@@ -15,8 +15,11 @@ function getSick(topS , h , eye , head){
     return sick
 
 }
-var topSpeedFactor = 0
-var eyeColorFactor = 0
+var topSpeedFactor = 0;
+var heightFactor =0;
+var eyeColorFactor = 0;
+var headAcheFactor = 0;
+
 var topSpeed = prompt("what is the top speed roller coaster in MPH?");
 //validate
     while(topSpeed === "" || isNaN(topSpeed)){
@@ -39,19 +42,23 @@ var topSpeed = prompt("what is the top speed roller coaster in MPH?");
 console.log(topSpeedFactor);
 
 var height = prompt ("how high is the roller coaster?");
+    if (){
+        
+    }
+
 
 
 //validate
-    while(topSpeed === "" || isNaN(topSpeed)){
-    topSpeed = prompt("height must be a number")
+    while(height === "" || isNaN(height)){
+    height = prompt("height must be a number")
     }
 
 var eyeColor = prompt("what color are your eyes");
     if (eyeColor === "blue" || "Blue"){
-        chanceSick *= 1.5
+        eyeColorFactor = 1.5
 
     } else if (eyeColor === "green" || "Green"){
-        chanceSick *= 2
+        eyeColorFactor = 2
 
     }
 
