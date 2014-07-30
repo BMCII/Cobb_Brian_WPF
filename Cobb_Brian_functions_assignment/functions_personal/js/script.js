@@ -19,6 +19,11 @@ function cupVolume(h , bigR , lilR){
 
 }
 
+function inchesCubedToOunces(inch){
+    var ounces = answer * 0.55411
+    return ounces
+}
+
 //tell user unit of measurement
 
 alert("all measurements are in inches");
@@ -68,3 +73,12 @@ var answer = finalVolume.toFixed(2);
 alert("the volume of your cup is " + answer + " inches³");
 
 //now change to ounces
+
+var convert = prompt("do you want to convert this to ounces?");
+
+
+var conversion;
+
+conversion = (convert === "yes" || convert === "Yes")?  inchesCubedToOunces(answer):alert("have a nice day");
+
+alert (conversion.toFixed(2) + " ounces");

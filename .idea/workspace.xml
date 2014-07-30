@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fae8d52-7ca4-4f95-891b-f0b7cea2c6d1" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions_assignment/Functions_Industry/functions_industry.html" afterPath="$PROJECT_DIR$/Cobb_Brian_functions_assignment/Functions_Industry/functions_industry.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions_assignment/Functions_Industry/js/script.js" afterPath="$PROJECT_DIR$/Cobb_Brian_functions_assignment/Functions_Industry/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions_assignment/Functions_Wacky/functions_wacky.html" afterPath="$PROJECT_DIR$/Cobb_Brian_functions_assignment/Functions_Wacky/functions_wacky.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions_assignment/Functions_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Cobb_Brian_functions_assignment/Functions_Wacky/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions_assignment/functions_personal/functions_personal.html" afterPath="$PROJECT_DIR$/Cobb_Brian_functions_assignment/functions_personal/functions_personal.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions_assignment/functions_personal/js/script.js" afterPath="$PROJECT_DIR$/Cobb_Brian_functions_assignment/functions_personal/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3LabExpressions/js/script.js" afterPath="$PROJECT_DIR$/Day3LabExpressions/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cobb_Brian_functions_assignment/functions_personal/js/script.js" afterPath="$PROJECT_DIR$/Cobb_Brian_functions_assignment/functions_personal/js/script.js" />
     </list>
     <ignored path="Cobb_Brian_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,9 +38,31 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cobb_Brian_functions_assignment/functions_personal/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9227799" vertical-offset="243" max-vertical-offset="1050">
-              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+            <state vertical-scroll-proportion="1.5057915" vertical-offset="0" max-vertical-offset="1260">
+              <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions_personal.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cobb_Brian_functions_assignment/functions_personal/functions_personal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ternary.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 5 files/js/Ternary.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -419,20 +434,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Industry/Conditionals_Industry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.059760958" vertical-offset="0" max-vertical-offset="753">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cobb_Brian_Conditionals_Assignment/Conditionals_Wacky/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9031414" vertical-offset="0" max-vertical-offset="780">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day_7_files/beer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07968128" vertical-offset="0" max-vertical-offset="753">
@@ -664,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cobb_Brian_functions_assignment/functions_personal/functions_personal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1992032" vertical-offset="0" max-vertical-offset="753">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cobb_Brian_functions_assignment/Functions_Industry/functions_industry.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08219178" vertical-offset="0" max-vertical-offset="730">
@@ -775,6 +769,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day 5 files/js/conditionals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cobb_Brian_functions_assignment/Functions_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
@@ -783,10 +787,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day 5 files/js/Ternary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cobb_Brian_functions_assignment/functions_personal/functions_personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cobb_Brian_functions_assignment/functions_personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9227799" vertical-offset="243" max-vertical-offset="1050">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        <state vertical-scroll-proportion="1.5057915" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
           <folding />
         </state>
       </provider>
