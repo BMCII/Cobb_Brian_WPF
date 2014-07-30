@@ -8,23 +8,32 @@
 //alert("testing 1,2,3");
 
 //how many times can you ride a roller coaster before getting sick
-//create variables
+
+//create function
 
 function getSick(topS , h , eye , head){
     var sick = (topS + h) * eye * head;
     return sick
 
 }
+
+//variables for calculation
+
 var topSpeedFactor = 0;
 var heightFactor =0;
 var eyeColorFactor = 0;
 var headAcheFactor = 0;
 
+//variables for prompts
+
 var topSpeed = prompt("what is the top speed roller coaster in MPH?");
+
 //validate
+
     while(topSpeed === "" || isNaN(topSpeed)){
     topSpeed = prompt("speed must be a number")
     }
+//conditionals for calculation
 
     if (topSpeed > 100){
         topSpeedFactor = 35
@@ -39,28 +48,33 @@ var topSpeed = prompt("what is the top speed roller coaster in MPH?");
         topSpeedFactor = 15
     }
 
-console.log(topSpeedFactor);
+//console.log(topSpeedFactor);
 
 var height = prompt ("in feet, how high is the roller coaster?");
-    if (height > 200){
-        heightFactor = 2
-
-    } else if (height > 150){
-        heightFactor = 1.5
-
-    } else if (height > 100){
-        heightFactor = 1.2
-
-    } else {
-        heightFactor = 1
-
-    }
-
 
 //validate
+
     while(height === "" || isNaN(height)){
     height = prompt("height must be a number")
     }
+
+//conditionals
+
+if (height > 200){
+    heightFactor = 2
+
+} else if (height > 150){
+    heightFactor = 1.5
+
+} else if (height > 100){
+    heightFactor = 1.2
+
+} else {
+    heightFactor = 1
+
+}
+
+//next variable
 
 var eyeColor = prompt("what color are your eyes");
     if (eyeColor === "blue" || "Blue"){
